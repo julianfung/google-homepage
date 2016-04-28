@@ -1,0 +1,136 @@
+
+//*
+div {
+	border: 1px dashed blue;
+}
+*//
+* > :last-child {
+	margin-bottom: 0; margin-right: 0;
+}
+
+html, body {
+	background-color:#fff;
+	height: 99%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.hovunderline:hover {
+	text-decoration:underline;
+}
+
+.hovopaque {
+	opacity: .5;
+}
+
+.hovopaque:hover {
+	opacity:.85;
+}
+
+li a {
+	text-decoration: none;
+}
+
+#header {
+	position:relative;
+	height: 8%;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+#topnav {
+	list-style-type:none;
+	text-align: right;
+	}
+
+#header li {
+	display:inline-block;
+	margin: 0px 5px 0px 5px;
+	padding: 8px 4px;
+}
+
+#header li a {
+	color: #000;
+}
+
+#signin {
+	background-color:#4387fd;
+	border-radius: 1px;
+	color: white;
+	padding: 8px 12px ! important;
+}
+
+#wrapper {
+	width: 600px;
+	height: 76.5%;
+	margin: 0 auto;
+}
+
+#body {
+	width: 500px;
+	margin: auto;
+	margin-top:120px;
+}
+
+#logo {
+	margin: auto;
+	display:block;
+	margin-bottom:30px;
+}
+
+#searchbuttons {
+	width:400px;
+	margin:auto;
+	display:block;
+	margin-top: 15px;
+
+}
+
+#sbuttons {
+	list-style-type: none;
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+
+}
+#searchbuttons li {
+	background-color:#f5f5f5;
+	color:rgb(117, 117, 117);
+	display:inline-block;
+	padding: 12px 20px;
+	font-size:13px;
+	font-family:arial, sans-serif;
+	text-align:center;
+}
+#searchbuttons li:hover{
+	background-color:#f5f5f5;
+	border: 1px solid #e5e5e5;
+	color:#222;
+
+}
+
+
+#footer {
+	position:absolute;
+	background-color:#e5e5e5;
+	height: 3.5%;
+	width: 100%
+}
+
+#footer li a{
+	color: #666;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+#footnav {
+	margin: 0px;
+}
+
+#footnav li {
+	display: inline-block;
+	margin: 5px;
+	padding-right: 2px;
+
+
+}
